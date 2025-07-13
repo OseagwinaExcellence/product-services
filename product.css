@@ -84,9 +84,9 @@ h2 {
      margin-left: 20px;
 }
 
-[class*="text-p"] {
-     font-size: small;
-
+[class$="text-p"] {
+     margin-left: 20px;
+     width: 200px;
 }
 
 
@@ -181,7 +181,7 @@ footer {
      bottom: 0;
 }
 
-p {
+[class*="footer-paragraph"] {
      text-align: center;
      padding: 10px;
      font-weight: bold;
