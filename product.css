@@ -1,7 +1,4 @@
-body {
-<<<<<<< HEAD
-     margin: 0;
-}
+
 
 header {
      background-image: url(https://edube.org/uploads/media/default/0001/04/products_image.jpg);
@@ -18,12 +15,8 @@ h1 {
 */
 
 main {
-=======
-     font-family: "Orbitron";
-     text-align: center;
-     color: rgb(89, 202, 218);
-     margin: 0;
->>>>>>> ded8b0414cdc1e754a0877d3437bd643b854cba5
+
+
      
 
 }
@@ -77,7 +70,6 @@ th {
      padding: 10px;
 }
 
-<<<<<<< HEAD
 td {
      padding-left: 10px;
 }
@@ -89,13 +81,3 @@ footer {
      background-color: lightgray;
      text-align: center;
      padding: 50px;
-    
-=======
-.em {
-     border-bottom: 4px white solid;
-}
-
-.btn:hover {
-     font-size: 20px;
->>>>>>> ded8b0414cdc1e754a0877d3437bd643b854cba5
-}
