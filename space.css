@@ -1,37 +1,85 @@
 body {
-     font-family: "Orbitron";
-     text-align: center;
-     color: rgb(89, 202, 218);
+     margin: 0;
+}
+
+header {
+     background-image: url(https://edube.org/uploads/media/default/0001/04/products_image.jpg);
+     position: fixed;
+     width: 1000px;
+}
+
+/*
+h1 {
+      text-align: center;
+    padding: 50px;
+    font-weight: bold;
+}
+*/
+
+main {
      
+
+}
+
+.img-div{
+     position: relative;
+}
+
+img {
+     border-radius: 10px;
+     margin: 10px;
 }
 
 .hero {
-     background-image: url(./image/galaxy.webp);
+     border: 2px solid black;
+     border-radius: 20px;
+     width: 350px;
+     margin-left: 15px;
+     position: ;
+     box-shadow: 3px 2px 23px;
+}
+
+.small-icon {
+     background-color: red;
+     padding: 10px;
+     border-radius: 10px;
+     color: white;
+     position: absolute;
+     top: 19px;
+     left: 20px;
+}
+
+[class*=text] {
+     width: 300px;
      padding: 20px;
-     padding-bottom: 10px;
-     background-size: cover;
-
+     margin-top: 0px;
+     position: relative;
 }
 
-.btn {
-     font-family: inherit;
-     color: rgb(89, 202, 218);
-     margin-bottom: 60px;
-     background-color: white;
-     border: none;
-     width: 100px;
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     font-weight: bold;
-     cursor: pointer;
+
+/*Table*/
+table, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+     width: 1200px;
+     margin: 10px;
+     height: 40px;
 }
 
-#space-x-logo {
-     width: 150px;
+th {
+     padding: 10px;
 }
 
-.em {
-     border-bottom: 4px white solid;
+td {
+     padding-left: 10px;
+}
+
+/*Table Hover*/
+
+
+footer {
+     background-color: lightgray;
+     text-align: center;
+     padding: 50px;
+    
 }
