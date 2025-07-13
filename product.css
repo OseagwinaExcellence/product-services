@@ -4,6 +4,19 @@ body {
      font-family: monospace;
 }
 
+body:hover {
+     background-color: black;
+     color: white;
+     transition: 0.3s;
+}
+
+body:focus {
+     background-color: black;
+     color: white;
+     transition: 0.3s;
+}
+
+
 /*Header*/
 header {
      background-image: url(./images/photo-1.jpg);
@@ -174,3 +187,4 @@ p {
      font-weight: bold;
      font-size: xx-large;
 }
+
