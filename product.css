@@ -4,17 +4,6 @@ body {
      font-family: monospace;
 }
 
-body:hover {
-     background-color: black;
-     color: white;
-     transition: 0.3s;
-}
-
-body:focus {
-     background-color: black;
-     color: white;
-     transition: 0.3s;
-}
 
 
 /*Header*/
@@ -44,7 +33,7 @@ h1 {
      width: 350px;
      height: 450px;
      margin-left: 20px;
-     margin-top: 120px;
+     margin-top: 150px;
      border-radius: 30px;
      margin-bottom: 100px;
 }
