@@ -33,6 +33,7 @@ h1 {
      margin-left: 20px;
      margin-top: 120px;
      border-radius: 30px;
+     margin-bottom: 100px;
 }
 
 [class*="img-div"] {
@@ -75,8 +76,75 @@ h2 {
 
 }
 
+
+/*Table*/
+table, td {
+     border: 1px solid grey;
+     border-collapse: collapse;
+     width: 1200px;
+     height: 50px;
+     padding-left: 10px;
+     margin-left: 20px;
+     margin-bottom: 100px;
+}
+
+th {
+     border-left: 1px solid gray;
+     padding: 15px;
+     background-color: rgb(244, 242, 242);
+}
+
+[class*="gray-row"] {
+     background-color: rgb(230, 226, 226);
+}
+
+
+[class*="gray-row"]:hover {
+     background-color: rgb(206, 202, 202);
+}
+
+/*Form and Fieldset*/
+[class*="message-div"] {
+     margin-top: 100px;
+     margin-bottom: 150px;
+}
+
+form {
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     border: 1px solid lightgray;
+}
+
+fieldset {
+     border: none;
+}
+
+legend {
+     border-bottom: 1px solid rgb(176, 173, 173);
+     font-weight: bold;
+
+}
+
+button {
+     background-color: lightgreen;
+     border: none;
+     padding: 10px;
+     width: 100px;
+     color: white;
+}
+
+button:hover {
+     background-color: rgb(131, 220, 131);
+     border: none;
+     padding: 10px;
+     width: 100px;
+     color: white;
+}
+
 /*footer*/
 footer {
+     margin-top: 10px;
      background-color: lightgray;
      width: 100%;
      position: fixed;
