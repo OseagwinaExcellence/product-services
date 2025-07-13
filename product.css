@@ -36,6 +36,7 @@ h1 {
      margin-top: 150px;
      border-radius: 30px;
      margin-bottom: 100px;
+     box-shadow: 4px 4px 4px lightgray;
 }
 
 [class*="img-div"] {
