@@ -155,7 +155,13 @@ p {
 }
 
 
-body:hover: {
+body:hover{
+     background-color: black;
+     color: white;
+     transition: 0.4s;
+}
+
+body:focus {
      background-color: black;
      color: white;
      transition: 0.4s;
