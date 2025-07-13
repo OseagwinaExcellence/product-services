@@ -1,17 +1,92 @@
 /*body*/
 body {
      margin: 0;
+     font-family: monospace;
 }
 
 /*Header*/
 header {
-     background-image: url(https://images.unsplash.com/photo-1492683513054-55277abccd99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     background-image: url(./images/photo-1.jpg);
      background-size: cover;
+     background-position: center;
      background-repeat: no-repeat;
      width: 100%;
-     text-align: center;
      height: 100px;
      padding-top: 10px;
      position: fixed;
      top: 0;
+}
+
+h1 {
+     font-size: 40px;
+     text-align: center;
+     color: rgba(69, 3, 300, 100);
+     font-weight: bold;
+
+}
+
+/*main*/
+[class*="hero"] {
+     border: 2px solid black;
+     width: 350px;
+     margin-left: 20px;
+     margin-top: 120px;
+     border-radius: 30px;
+     background-color: black;
+     color: white;
+}
+
+[class*="img-div"] {
+     position: relative;
+     margin-left: 20px;
+     margin-top: 30px;
+     
+}
+
+span {
+     background-color: red;
+     padding: 10px;
+     font-size: bold;
+     color: white;
+     position: absolute;
+     border-radius: 12px;
+     top: 25px;
+     left: 20px;
+     width: 40px;
+     text-align: center;
+}
+
+img {
+     width: 300px;
+     border-radius: 10px;
+     border: 1px white solid;
+}
+
+[class*="text"] {
+     width: 300px;
+     
+}
+
+h2 {
+     margin-left: 20px;
+}
+
+[class*="text-p"] {
+     font-size: small;
+     margin-right: 0;
+}
+
+/*footer*/
+footer {
+     background-color: lightgray;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+}
+
+p {
+     text-align: center;
+     padding: 10px;
+     font-weight: bold;
+     font-size: xx-large;
 }
