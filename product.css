@@ -36,7 +36,7 @@ img {
      width: 350px;
      margin-left: 15px;
      position: ;
-     box-shadow: 3px 2px 23px;
+     box-shadow: 2px 2px 13px;
 }
 
 .small-icon {
@@ -59,25 +59,37 @@ img {
 
 /*Table*/
 table, td {
-     border: 1px solid black;
+     border: 1px solid rgb(220, 216, 216);
      border-collapse: collapse;
      width: 1200px;
-     margin: 10px;
+     margin: 20px;
      height: 40px;
 }
 
 th {
      padding: 10px;
+     border: 1px solid rgb(220, 216, 216);
 }
 
 td {
      padding-left: 10px;
 }
 
-/*Table Hover*/
+[class*="row-1"] {
+     background-color: rgb(241, 239, 239);
+}
 
+/*Table Hover*/
+th:hover {
+     background-color: lightgray;
+}
+
+tr:hover {
+     background-color: lightgray;
+}
 
 footer {
      background-color: lightgray;
      text-align: center;
      padding: 50px;
+     height: ;
