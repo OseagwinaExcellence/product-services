@@ -4,8 +4,6 @@ body {
      font-family: monospace;
 }
 
-
-
 /*Header*/
 header {
      background-image: url(./images/photo-1.jpg);
@@ -24,7 +22,6 @@ h1 {
      text-align: center;
      color: white;
      font-weight: bold;
-
 }
 
 /*main*/
@@ -42,8 +39,7 @@ h1 {
 [class*="img-div"] {
      position: relative;
      margin-left: 20px;
-     margin-top: 30px;
-     
+     margin-top: 30px;    
 }
 
 span {
@@ -79,7 +75,6 @@ h2 {
      width: 200px;
 }
 
-
 /*Table*/
 table, td {
      border: 1px solid grey;
@@ -100,7 +95,6 @@ th {
 [class*="gray-row"] {
      background-color: rgb(230, 226, 226);
 }
-
 
 [class*="gray-row"]:hover {
      background-color: rgb(206, 202, 202);
