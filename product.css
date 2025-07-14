@@ -14,7 +14,7 @@ header {
      height: 100px;
      padding-top: 10px;
      position: fixed;
-     top: 1;
+     top: 0;
 }
 
 h1 {
