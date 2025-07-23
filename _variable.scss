@@ -1,5 +1,6 @@
 /*body*/
 $body-margin: 0;
+$body-font: monospace;
 
 /*Header*/
 $header-img: rgba(0, 0, 0, 0.902);
@@ -52,14 +53,15 @@ $table-margin-top: 3rem;
 //row
 $grey-row: lightgrey;
 $grey-row-effect: rgb(148, 146, 146);
-$row-transition: ease-in 0,3ms;
+$row-transition: ease-in 0.3ms;
   //table head
   $table-header-bg-color: grey;
   $table-margins: auto;
-
-//form
-$form-border: $legends-bottom;
-//Fieldset
+  //forms
+  $form-border: $grey-row 1px solid;
+  $form-pad-up: 30px;
+  $form-pad-down: 20px;
+  //Fieldset
 $field-set-margin-top: 13rem;
 $fieldset: none;
 $fieldset-weight: 3rem;
@@ -70,9 +72,27 @@ $fieldset-weight: 3rem;
      $input-field: 15rem;
      $input-rad: 0.2rem;
      $input-height: 2em;
+     //button
+     $bg-btn: lightgreen;
+     $bg-btn-2: rgb(103, 246, 103);
+     $btn-mouse: pointer;
+     $btn-width: 30%;
+     $btn-padding: 8px 0;
+     $btn-transition: ease-in 0.1s;
 
 /*Footer*/
 $foot-position: $header-position;
 $footer-background:$header-img;
 $footer-positioning-bottom: 0;
 $foot-text: bold;
+
+/*Animation*/
+  //form-ani
+  $form-color-1: green;
+  $form-color-2: red;
+
+  //keyframes
+
+
+  //ani-name
+  $border-ch: borderchange;

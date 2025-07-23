@@ -3,6 +3,7 @@
 /*Body*/
 body {
      margin: $body-margin;
+     font-family: $body-font;
 }
 
 header {
@@ -55,7 +56,7 @@ span {
      padding: $header-padding;
      border-radius: $border-rad;
      position: $hero-position;
-     top: $span-top;
+     top: $span-top * 1.2;
      left: $span-left;
 }
 
@@ -91,6 +92,30 @@ td {
 .message-div {
      margin-top: $field-set-margin-top;
      margin-bottom: $field-set-margin-top;
+     form {
+          border: $form-border;
+          width: 25%;
+          margin: 0 $table-margins;
+          border-radius: $input-rad * 4;
+          padding-top: $form-pad-up;
+          padding-bottom: $form-pad-down;
+          animation-name: $border-ch;
+          animation-duration: 1s;
+          animation-iteration-count: infinite;
+          button {
+               background-color: $bg-btn;
+               border: $input-out;
+               color: $text-color;
+               font-weight: $foot-text;
+               cursor: $btn-mouse;
+               width: $btn-width;
+               padding: $btn-padding;
+          }
+            button:hover {
+                    background-color: $bg-btn-2;
+                    transition: $btn-transition;
+               }
+     }
      fieldset {
           border: $fieldset;
           width: $fieldset-weight;
@@ -112,12 +137,23 @@ td {
                margin-bottom: $input-height / 2;
                margin-top: $input-height / 5;
           }
+          input {
+               padding-left: 8px;
+          }
           textarea {
                height: $input-height * 4;
           }
      }
 }
 
+@keyframes borderchange {
+     from {
+          border-color: $form-color-1;
+     }
+     to {
+          border-color: $form-color-2;
+     }
+}
 
 
 /*Footer*/

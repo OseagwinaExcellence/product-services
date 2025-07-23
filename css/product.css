@@ -2,9 +2,11 @@
 /*Header*/
 /*Main*/
 /*Footer*/
+/*Animation*/
 /*Body*/
 body {
   margin: 0;
+  font-family: monospace;
 }
 
 header {
@@ -53,7 +55,7 @@ span {
   padding: 10px;
   border-radius: 10px;
   position: absolute;
-  top: 12em;
+  top: 14.4em;
   left: 5rem;
 }
 
@@ -89,12 +91,36 @@ table tr:hover,
 tr tr:hover,
 td tr:hover {
   background-color: rgb(148, 146, 146);
-  transition: ease-in 0, 3ms;
+  transition: ease-in 0.3ms;
 }
 
 .message-div {
   margin-top: 13rem;
   margin-bottom: 13rem;
+}
+.message-div form {
+  border: lightgrey 1px solid;
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 0.8rem;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  animation-name: borderchange;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.message-div form button {
+  background-color: lightgreen;
+  border: lightgrey 1px solid;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 30%;
+  padding: 8px 0;
+}
+.message-div form button:hover {
+  background-color: rgb(103, 246, 103);
+  transition: ease-in 0.1s;
 }
 .message-div fieldset {
   border: none;
@@ -118,10 +144,21 @@ td tr:hover {
   margin-bottom: 1em;
   margin-top: 0.4em;
 }
+.message-div fieldset input {
+  padding-left: 8px;
+}
 .message-div fieldset textarea {
   height: 8em;
 }
 
+@keyframes borderchange {
+  from {
+    border-color: green;
+  }
+  to {
+    border-color: red;
+  }
+}
 /*Footer*/
 footer {
   position: fixed;
