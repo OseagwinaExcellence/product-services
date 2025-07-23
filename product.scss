@@ -6,6 +6,8 @@ body {
      font-family: $body-font;
 }
 
+
+/*Header*/
 header {
      position: $header-position;
      padding: $header-padding;
@@ -14,15 +16,28 @@ header {
      top: $header-top;
      left: $header-top;
      right: $header-top;
+     animation-name: $header-name-anime;
+     animation-duration: $header-duration;
+     animation-iteration-count: $header-iteration;
      .header-h1 {
           color: $text-color;
           text-align: $text-position;
      }
 }
 
+@keyframes reloadcareDisplay {
+     from {
+          transform: translateY($header-transition-1);
+     }
+     to {
+          transform: translateY($header-transition-2);
+     }
+}
+
 /*Main*/
 .main-details {
      margin-top: $main-margin-top;
+     
           .img {
                width: $img-width;
                height: $img-height;
@@ -30,15 +45,13 @@ header {
                border-radius: $border-rad;
                margin-left: $img-margin-left;
                position: $hero-position-2;
-          
-     
      }
      .hero {
           border: $border;
           width: $hero-width;
           margin-left: $hero-margin-left;
           border-radius: $border-rad; 
-          padding: $hero-padding;   
+          padding: $hero-padding; 
      }
      .text {
           padding: $text-padding;
@@ -46,7 +59,15 @@ header {
                text-decoration: $decorate-text red;
           }
      }
+}
 
+@keyframes reloadLeftRight {
+     from{
+          width: $hero-transition-1;
+     }
+     to {
+          width: $hero-transition-2;
+     }
 }
 
 //Span
@@ -90,7 +111,7 @@ td {
 
 //Fieldset
 .message-div {
-     margin-top: $field-set-margin-top;
+     margin-top: $field-set-margin-top / 2;
      margin-bottom: $field-set-margin-top;
      form {
           border: $form-border;
@@ -155,7 +176,6 @@ td {
      }
 }
 
-
 /*Footer*/
 footer {
      position: $foot-position;
@@ -164,9 +184,21 @@ footer {
      left: $footer-positioning-bottom;
      right: $footer-positioning-bottom;
      padding: $header-padding;
+       animation-name: $footer-name-anime;
+     animation-duration: $footer-duration;
+     animation-iteration-count: $footer-iteration;
           .footer-paragraph {
                color: $text-color;
                text-align: $text-position;
                font-weight: bold;
+     }
+}
+
+@keyframes reloadcareDisplayBootom {
+     from {
+          transform:translateY($footer-transition-2);
+     }
+     to {
+          transform: translateY($footer-transition-1);
      }
 }

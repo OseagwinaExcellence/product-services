@@ -9,6 +9,7 @@ body {
   font-family: monospace;
 }
 
+/*Header*/
 header {
   position: fixed;
   padding: 10px;
@@ -17,12 +18,23 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  animation-name: reloadcareDisplay;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 header .header-h1 {
   color: white;
   text-align: center;
 }
 
+@keyframes reloadcareDisplay {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 /*Main*/
 .main-details {
   margin-top: 150px;
@@ -49,6 +61,14 @@ header .header-h1 {
   text-decoration: underline red;
 }
 
+@keyframes reloadLeftRight {
+  from {
+    width: 0px;
+  }
+  to {
+    width: normal;
+  }
+}
 span {
   color: white;
   background-color: red;
@@ -95,7 +115,7 @@ td tr:hover {
 }
 
 .message-div {
-  margin-top: 13rem;
+  margin-top: 6.5rem;
   margin-bottom: 13rem;
 }
 .message-div form {
@@ -153,10 +173,10 @@ td tr:hover {
 
 @keyframes borderchange {
   from {
-    border-color: green;
+    border-color: lightgrey;
   }
   to {
-    border-color: red;
+    border-color: black;
   }
 }
 /*Footer*/
@@ -167,9 +187,21 @@ footer {
   left: 0;
   right: 0;
   padding: 10px;
+  animation-name: reloadcareDisplayBootom;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 footer .footer-paragraph {
   color: white;
   text-align: center;
   font-weight: bold;
+}
+
+@keyframes reloadcareDisplayBootom {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }

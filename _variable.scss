@@ -40,7 +40,7 @@ $span-left: 5rem;
 //below text
 $text-padding: 1rem;
 
-//
+//H2
 $decorate-text: underline;
 
 //table
@@ -88,11 +88,34 @@ $foot-text: bold;
 
 /*Animation*/
   //form-ani
-  $form-color-1: green;
-  $form-color-2: red;
+  $form-color-1: lightgrey;
+  $form-color-2: black;
 
-  //keyframes
 
+  //header 
+$header-transition-1: -100px;
+$header-transition-2: 0;
+$header-name-anime: reloadcareDisplay;
+$header-iteration: 1;
+$header-duration: 3s;
+$header-transition: ease-in;
+
+//Footer
+$footer-transition-1: 0;
+$footer-transition-2: 50px;
+$footer-name-anime: reloadcareDisplayBootom;
+$footer-iteration: 1;
+$footer-duration: 1s;
+$footer-transition: ease-in;
+
+//hero
+$hero-transition-1: 0px;
+$hero-transition-2: normal;
+$hero-name-anime: reloadLeftRight;
+$hero-iteration: 1;
+$hero-duration: 3s;
+$hero-transition: ease-in;
 
   //ani-name
   $border-ch: borderchange;
+  
