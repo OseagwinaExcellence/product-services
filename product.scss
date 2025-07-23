@@ -1,7 +1,59 @@
 @import 'variable';
 
-h1 {
-     color: $red;
-     background-color: aqua;
-     font-size: $bold;
+/*Body*/
+body {
+     margin: $body-margin;
+}
+
+header {
+     position: $header-position;
+     padding: $header-padding;
+     background-color: $header-img;
+     margin-bottom: $header-margin-bottom;
+     top: $header-top;
+     left: $header-top;
+     right: $header-top;
+     .header-h1 {
+          color: $text-color;
+          text-align: $text-position;
+     }
+}
+
+/*Main*/
+.main-details {
+     
+     margin-top: $main-margin-top;
+     position: $hero-position-2;
+          .img {
+               width: $img-width;
+               height: $img-height;
+               margin-top: $img-margin-top; 
+               border-radius: $border-rad;
+               margin-left: $img-margin-left;   
+          
+     
+     }
+     .hero {
+          border: $border;
+          width: $hero-width;
+          margin-left: $hero-margin-left;
+          border-radius: $border-rad; 
+          padding: $hero-padding;   
+
+     }
+}
+
+/*Footer*/
+footer {
+     position: $foot-position;
+     background-color: $footer-background;
+     bottom: $footer-positioning-bottom;
+     left: $footer-positioning-bottom;
+     right: $footer-positioning-bottom;
+     padding: $header-padding;
+          .footer-paragraph {
+               color: $text-color;
+               text-align: $text-position;
+         
+     }
 }

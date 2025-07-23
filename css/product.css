@@ -1,5 +1,56 @@
-h1 {
-  color: red;
-  background-color: aqua;
-  font-size: 1000000px;
+/*body*/
+/*Header*/
+/*Main*/
+/*Footer*/
+/*Body*/
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.902);
+  margin-bottom: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header .header-h1 {
+  color: white;
+  text-align: center;
+}
+
+/*Main*/
+.main-details {
+  margin-top: 150px;
+  position: relative;
+}
+.main-details .img {
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+.main-details .hero {
+  border: 2px solid black;
+  width: 310px;
+  margin-left: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*Footer*/
+footer {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.902);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+footer .footer-paragraph {
+  color: white;
+  text-align: center;
 }

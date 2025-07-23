@@ -1,2 +1,35 @@
-$red: red;
-$bold: 1000000px;
+/*body*/
+$body-margin: 0;
+
+/*Header*/
+$header-img: rgba(0, 0, 0, 0.902);
+$header-position: fixed;
+$header-padding: 10px;
+$text-color: white;
+$text-position: center;
+$header-margin-bottom: 10px;
+$header-top: 0;
+
+/*Main*/
+$main-margin-top: 150px;
+$border-rad: 10px;
+
+//Image
+$img-margin-top: 10px;  
+$img-margin-left: 25px;  
+$img-width: 250px;
+$img-height: 250px;
+
+//hero
+$border: 2px solid black;
+$hero-margin-left: 30px;
+$hero-width: 310px;
+$hero-padding: 10px;
+$hero-position: absolute;
+$hero-position-2: relative;
+
+
+/*Footer*/
+$foot-position: $header-position;
+$footer-background:$header-img;
+$footer-positioning-bottom: 0;
