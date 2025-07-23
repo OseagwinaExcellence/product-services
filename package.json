@@ -1,0 +1,25 @@
+{
+  "name": "product-services",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/OseagwinaExcellence/Space-X#readme",
+  "bugs": {
+    "url": "https://github.com/OseagwinaExcellence/Space-X/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OseagwinaExcellence/Space-X.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.89.2"
+  }
+}
