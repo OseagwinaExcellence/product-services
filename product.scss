@@ -21,15 +21,14 @@ header {
 
 /*Main*/
 .main-details {
-     
      margin-top: $main-margin-top;
-     position: $hero-position-2;
           .img {
                width: $img-width;
                height: $img-height;
                margin-top: $img-margin-top; 
                border-radius: $border-rad;
-               margin-left: $img-margin-left;   
+               margin-left: $img-margin-left;
+               position: $hero-position-2;
           
      
      }
@@ -39,9 +38,90 @@ header {
           margin-left: $hero-margin-left;
           border-radius: $border-rad; 
           padding: $hero-padding;   
+     }
+     .text {
+          padding: $text-padding;
+          h2 {
+               text-decoration: $decorate-text red;
+          }
+     }
 
+}
+
+//Span
+span {
+     color: $span-text-color;
+     background-color: $span-text-bg;
+     padding: $header-padding;
+     border-radius: $border-rad;
+     position: $hero-position;
+     top: $span-top;
+     left: $span-left;
+}
+
+//table 
+.table {
+     margin-top: $table-margin-top;
+}
+
+table,
+tr, 
+td {
+     border: $table-border;
+     border-collapse: $table-border-collapse;
+     width: $table-for-width;
+     margin: 0 $table-margins;
+          td {
+               padding: $table-padding;
+          }
+          th {
+               border-left: $table-border;
+               padding: $table-padding;
+          }
+          .gray-row {
+               background-color: $grey-row;
+     }
+     tr:hover {
+          background-color: $grey-row-effect;
+          transition: $row-transition;
      }
 }
+
+//Fieldset
+.message-div {
+     margin-top: $field-set-margin-top;
+     margin-bottom: $field-set-margin-top;
+     fieldset {
+          border: $fieldset;
+          width: $fieldset-weight;
+          margin: $table-margins;
+          legend {
+               border-bottom: $legends-bottom;
+               font-weight: $foot-text;
+               margin-bottom: $input-height;
+          }
+          label {
+               font-weight: $foot-text;
+          }
+          input, textarea {
+               border: $input-out;
+               outline: $input-out;
+               width: $input-field;
+               border-radius: $input-rad;
+               height: $input-height;
+               margin-bottom: $input-height / 2;
+               margin-top: $input-height / 5;
+          }
+          textarea {
+               height: $input-height * 4;
+          }
+     }
+     form {
+     border: $form-border;
+}
+}
+
+
 
 /*Footer*/
 footer {
@@ -54,6 +134,6 @@ footer {
           .footer-paragraph {
                color: $text-color;
                text-align: $text-position;
-         
+               font-weight: bold;
      }
 }

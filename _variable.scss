@@ -28,8 +28,51 @@ $hero-padding: 10px;
 $hero-position: absolute;
 $hero-position-2: relative;
 
+//span
+$span-text-color: $text-color;
+$span-text-bg: red;
+$span-text-color-2: white;
+$span-text-bg-2: green;
+$span-top: 12em;
+$span-left: 5rem;
+
+//below text
+$text-padding: 1rem;
+
+//
+$decorate-text: underline;
+
+//table
+$table-border: 1px rgb(190, 189, 189) solid;
+$table-border-collapse: collapse;
+$table-for-width: 50rem;
+$table-padding: 8px;
+$table-margin-top: 3rem;
+
+//row
+$grey-row: lightgrey;
+$grey-row-effect: rgb(148, 146, 146);
+$row-transition: ease-in 0,3ms;
+  //table head
+  $table-header-bg-color: grey;
+  $table-margins: auto;
+
+//form
+$form-border: $legends-bottom;
+//Fieldset
+$field-set-margin-top: 13rem;
+$fieldset: none;
+$fieldset-weight: 3rem;
+     //legends
+     $legends-bottom: 1px $grey-row solid;
+     //input
+     $input-out: $grey-row 1px solid; 
+     $input-field: 15rem;
+     $input-rad: 0.2rem;
+     $input-height: 2em;
 
 /*Footer*/
 $foot-position: $header-position;
 $footer-background:$header-img;
 $footer-positioning-bottom: 0;
+$foot-text: bold;
