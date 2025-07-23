@@ -1,1 +1,16 @@
-@im;/*# sourceMappingURL=product.css.map */
+/*header style*/
+/*body*/
+body {
+  margin: 0;
+}
+
+/*header style*/
+header {
+  background: url(./images/photo-1.jpg);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}/*# sourceMappingURL=product.css.map */

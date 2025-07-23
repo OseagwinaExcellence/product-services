@@ -1,1 +1,17 @@
-@import
+@import 'variables';
+
+/*body*/
+body {
+     margin: $body;
+}
+
+/*header style*/
+header {
+     background: $product-header-img;
+     padding: $header-padding;
+     text-align: $header-text-position;
+     color: $header-text-color;
+     background-size: $header-img-size;
+     background-repeat: $header-img-repeat;
+     background-position: $header-img-position;
+}
