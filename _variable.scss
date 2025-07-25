@@ -3,10 +3,10 @@ $body-margin: 0;
 $body-font: monospace;
 
 /*Header*/
-$header-img: rgba(0, 0, 0, 0.902);
+$header-bg: rgba(0, 0, 0, 0.701);
 $header-position: fixed;
 $header-padding: 10px;
-$text-color: white;
+$text-color: rgb(255, 255, 255);
 $text-position: center;
 $header-margin-bottom: 10px;
 $header-top: 0;
@@ -82,7 +82,6 @@ $fieldset-weight: 3rem;
 
 /*Footer*/
 $foot-position: $header-position;
-$footer-background:$header-img;
 $footer-positioning-bottom: 0;
 $foot-text: bold;
 

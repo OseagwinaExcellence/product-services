@@ -13,28 +13,32 @@ body {
 header {
   position: fixed;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.902);
+  background-color: rgba(0, 0, 0, 0.701);
   margin-bottom: 10px;
   top: 0;
   left: 0;
   right: 0;
-  animation-name: reloadcareDisplay;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
+  /**
+  animation-name: $header-name-anime;
+  animation-duration: $header-duration;
+  animation-iteration-count: $header-iteration;
+  **/
 }
 header .header-h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
+/*
 @keyframes reloadcareDisplay {
-  from {
-    transform: translateY(-100px);
-  }
-  to {
-    transform: translateY(0);
-  }
+     from {
+          transform: translateY($header-transition-1);
+     }
+     to {
+          transform: translateY($header-transition-2);
+     }
 }
+*/
 /*Main*/
 .main-details {
   margin-top: 150px;
@@ -70,7 +74,7 @@ header .header-h1 {
   }
 }
 span {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: red;
   padding: 10px;
   border-radius: 10px;
@@ -132,7 +136,7 @@ td tr:hover {
 .message-div form button {
   background-color: lightgreen;
   border: lightgrey 1px solid;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   cursor: pointer;
   width: 30%;
@@ -181,8 +185,8 @@ td tr:hover {
 }
 /*Footer*/
 footer {
+  background-color: rgba(0, 0, 0, 0.701);
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.902);
   bottom: 0;
   left: 0;
   right: 0;
@@ -192,7 +196,7 @@ footer {
   animation-iteration-count: 1;
 }
 footer .footer-paragraph {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-weight: bold;
 }

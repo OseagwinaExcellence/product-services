@@ -11,20 +11,22 @@ body {
 header {
      position: $header-position;
      padding: $header-padding;
-     background-color: $header-img;
+     background-color: $header-bg;
      margin-bottom: $header-margin-bottom;
      top: $header-top;
      left: $header-top;
      right: $header-top;
+     /**
      animation-name: $header-name-anime;
      animation-duration: $header-duration;
      animation-iteration-count: $header-iteration;
+     **/
      .header-h1 {
           color: $text-color;
           text-align: $text-position;
      }
 }
-
+/*
 @keyframes reloadcareDisplay {
      from {
           transform: translateY($header-transition-1);
@@ -33,7 +35,7 @@ header {
           transform: translateY($header-transition-2);
      }
 }
-
+*/
 /*Main*/
 .main-details {
      margin-top: $main-margin-top;
@@ -178,8 +180,8 @@ td {
 
 /*Footer*/
 footer {
+     background-color: $header-bg;
      position: $foot-position;
-     background-color: $footer-background;
      bottom: $footer-positioning-bottom;
      left: $footer-positioning-bottom;
      right: $footer-positioning-bottom;
